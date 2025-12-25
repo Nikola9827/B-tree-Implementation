@@ -1,10 +1,12 @@
 # B-tree Implementation
 
-A parameterized B-tree implemented in C++ supporting efficient search, insertion, and deletion.
+A C++ implementation of a parameterized B-tree supporting dynamic data storage and retrieval.
 
-## Features
+### Features
+- Implemented a fully parameterized B-tree supporting efficient search, insertion, and deletion operations for dynamic datasets.  
+- Managed node splitting, key redistribution, and tree rebalancing for both leaf and internal nodes to maintain optimal performance.  
+- Designed custom node structures with parent pointers and dynamic key/child arrays for flexible memory management.  
+- Analyzed and verified the correctness of operations, and evaluated time and space complexity relative to B-tree order and height.  
 
-- Implements a B-tree of variable order, handling node splitting and rebalancing to maintain efficiency.
-- Supports dynamic insertions, deletions, and key redistribution in both leaf and internal nodes.
-- Uses custom node structures with parent pointers and dynamic management of keys and children.
-- Includes analysis of operation correctness and complexity relative to tree height and order.
+### Usage
+Compile and run the project using a C++ compiler. Modify the `main.cpp` to test different scenarios or integrate with other projects.
